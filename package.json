@@ -1,6 +1,6 @@
 {
   "name": "infore-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple CLI for creating your projects",
   "bin": {
     "infore": "bin/infore"
@@ -17,10 +17,21 @@
     "cli-table": "^0.3.1",
     "commander": "^2.9.0",
     "download-git-repo": "^1.0.0",
-    "handlebars": "^4.0.8",
     "inquirer": "^3.0.6",
-    "metalsmith": "^2.3.0",
     "ora": "^1.2.0",
     "shelljs": "^0.7.8"
-  }
+  },
+  "main": "bin/infore",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MIFind/infore-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MIFind/infore-cli/issues"
+  },
+  "homepage": "https://github.com/MIFind/infore-cli#readme"
 }

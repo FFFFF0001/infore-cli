@@ -48,6 +48,6 @@ module.exports = prompt(question).then(({name, place, branch}) => {
     if (err) {
       console.log(err)
     }
-    listTable(tplList, `恭喜您，模板项目${tplList[name]}添加成功！`)
+    listTable(tplList, `恭喜您，模板项目${name}添加成功！`)
   })
 })
