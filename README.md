@@ -3,7 +3,7 @@
 
 ### 安装
 ```
-npm install scion-cli -g
+npm install infore-cli -g
 ```
 
 ### 使用方式
