@@ -40,7 +40,7 @@ module.exports = prompt(question).then(({projectName, platform}) => {
     const spinner = ora('正在下载模板，请稍后...')
 
     spinner.start()
-    console.log(chalk.green(`下载地址为：${gitPlace}#${gitBranch}`))
+    console.log(chalk.green(`\r\n下载地址为：${gitPlace}#${gitBranch}`))
     download(`${gitPlace}#${gitBranch}`, `${projectName}`, (err) => {
         if (err) {
             console.log(chalk.red(err))
